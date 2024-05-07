@@ -20,3 +20,20 @@ class siswa
     void displayALL(orang &a);
 };
 
+void siswa::displayAll(orang &a)
+{
+    cout << id << endl << a.nama;
+}
+void orang::setNama(string pNama)
+{
+    nama = pNama;
+}
+void siswa::setid(int pId)
+{
+    id = pId;
+}
+int main()
+{
+    orang joko;
+    joko.setNama("")
+}
