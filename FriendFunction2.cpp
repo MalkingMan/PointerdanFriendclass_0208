@@ -19,3 +19,14 @@ class pelajar
 
 };
 
+void manusia::showNimPelajar(pelajar &x)
+{
+    cout << x.nilai;
+}
+int main()
+{
+    manusia budi;
+    pelajar pbudi;
+    budi.showNimPelajar(pbudi);
+    return 0;
+}
