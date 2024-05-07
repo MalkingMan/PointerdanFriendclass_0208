@@ -21,5 +21,8 @@ int main ()
     refMhS.nim = 2; // Member Access Operator
     mhs.showNim();
 
-    mahasiswa *pMhs = &mhs; // pointer 
+    mahasiswa *pMhs = &mhs; // pointer dereference pMhs
+    pMhs->nim = 3: // arrow pointer
+    pMhs->showNim ();
+    return 0;
 }
